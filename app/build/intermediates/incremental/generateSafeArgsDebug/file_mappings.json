@@ -1,0 +1,1 @@
+[{"navFile":"src/main/res/navigation/main_navigation.xml","javaFiles":["com.example.android.guesstheword.screens.title.TitleFragmentDirections","com.example.android.guesstheword.screens.game.GameFragmentDirections","com.example.android.guesstheword.screens.score.ScoreFragmentDirections","com.example.android.guesstheword.screens.score.ScoreFragmentArgs"]}]
