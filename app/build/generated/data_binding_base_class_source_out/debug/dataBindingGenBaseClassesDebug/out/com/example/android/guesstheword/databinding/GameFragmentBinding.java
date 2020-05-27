@@ -36,6 +36,9 @@ public abstract class GameFragmentBinding extends ViewDataBinding {
   public final Button skipButton;
 
   @NonNull
+  public final TextView textView;
+
+  @NonNull
   public final TextView timerText;
 
   @NonNull
@@ -49,8 +52,8 @@ public abstract class GameFragmentBinding extends ViewDataBinding {
 
   protected GameFragmentBinding(Object _bindingComponent, View _root, int _localFieldCount,
       Button correctButton, Button endGameButton, ConstraintLayout gameLayout, Guideline guideline,
-      TextView scoreText, Button skipButton, TextView timerText, TextView wordIsText,
-      TextView wordText) {
+      TextView scoreText, Button skipButton, TextView textView, TextView timerText,
+      TextView wordIsText, TextView wordText) {
     super(_bindingComponent, _root, _localFieldCount);
     this.correctButton = correctButton;
     this.endGameButton = endGameButton;
@@ -58,6 +61,7 @@ public abstract class GameFragmentBinding extends ViewDataBinding {
     this.guideline = guideline;
     this.scoreText = scoreText;
     this.skipButton = skipButton;
+    this.textView = textView;
     this.timerText = timerText;
     this.wordIsText = wordIsText;
     this.wordText = wordText;

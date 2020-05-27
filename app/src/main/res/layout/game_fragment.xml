@@ -81,6 +81,7 @@
             app:layout_constraintBottom_toTopOf="@+id/score_text"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            android:text="@{gameViewModel.currentTimeString}"
             tools:text="0:00" />
 
         <TextView
@@ -145,6 +146,16 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/guideline"
             android:onClick="@{() -> gameViewModel.ongamefinish()}"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{gameViewModel.wordHint}"
+            app:layout_constraintBottom_toTopOf="@+id/timer_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/word_text" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

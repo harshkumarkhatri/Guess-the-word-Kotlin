@@ -1124,38 +1124,6 @@
             ]
         },
         {
-            "outputFile": "/home/harsh/AndroidStudioProjects/GuessTheWordViewModel/app/build/intermediates/res/merged/debug/values-en-rXC_values-en-rXC.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/harsh/.gradle/caches/transforms-2/files-2.1/5bfaf7b81f844977ce94c6cfdab8cb40/res/values-en-rXC/values-en-rXC.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,310,510,719,904,1106,1321,1494,1671,1862,2055,2253,2449,2652,2847,3044,3239,3432,3623,3807,4011,4216,4417,4624,4826,5031,5303,5503",
-                        "endColumns": "204,199,208,184,201,214,172,176,190,192,197,195,202,194,196,194,192,190,183,203,204,200,206,201,204,271,199,178",
-                        "endOffsets": "305,505,714,899,1101,1316,1489,1666,1857,2050,2248,2444,2647,2842,3039,3234,3427,3618,3802,4006,4211,4412,4619,4821,5026,5298,5498,5677"
-                    }
-                },
-                {
-                    "source": "/home/harsh/.gradle/caches/transforms-2/files-2.1/a5968062afaf08ebbfea76f93aa5197b/res/values-en-rXC/values-en-rXC.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "202",
-                        "endOffsets": "253"
-                    },
-                    "to": {
-                        "startLines": "30",
-                        "startColumns": "4",
-                        "startOffsets": "5682",
-                        "endColumns": "202",
-                        "endOffsets": "5880"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/harsh/AndroidStudioProjects/GuessTheWordViewModel/app/build/intermediates/res/merged/debug/values-en-rGB_values-en-rGB.arsc.flat",
             "map": [
                 {
@@ -1207,6 +1175,38 @@
                         "startOffsets": "2764,2870",
                         "endColumns": "105,116",
                         "endOffsets": "2865,2982"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/harsh/AndroidStudioProjects/GuessTheWordViewModel/app/build/intermediates/res/merged/debug/values-en-rXC_values-en-rXC.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/harsh/.gradle/caches/transforms-2/files-2.1/5bfaf7b81f844977ce94c6cfdab8cb40/res/values-en-rXC/values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,310,510,719,904,1106,1321,1494,1671,1862,2055,2253,2449,2652,2847,3044,3239,3432,3623,3807,4011,4216,4417,4624,4826,5031,5303,5503",
+                        "endColumns": "204,199,208,184,201,214,172,176,190,192,197,195,202,194,196,194,192,190,183,203,204,200,206,201,204,271,199,178",
+                        "endOffsets": "305,505,714,899,1101,1316,1489,1666,1857,2050,2248,2444,2647,2842,3039,3234,3427,3618,3802,4006,4211,4412,4619,4821,5026,5298,5498,5677"
+                    }
+                },
+                {
+                    "source": "/home/harsh/.gradle/caches/transforms-2/files-2.1/a5968062afaf08ebbfea76f93aa5197b/res/values-en-rXC/values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "202",
+                        "endOffsets": "253"
+                    },
+                    "to": {
+                        "startLines": "30",
+                        "startColumns": "4",
+                        "startOffsets": "5682",
+                        "endColumns": "202",
+                        "endOffsets": "5880"
                     }
                 }
             ]
@@ -1627,6 +1627,21 @@
             ]
         },
         {
+            "outputFile": "/home/harsh/AndroidStudioProjects/GuessTheWordViewModel/app/build/intermediates/res/merged/debug/values-xlarge-v4_values-xlarge-v4.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/harsh/.gradle/caches/transforms-2/files-2.1/5bfaf7b81f844977ce94c6cfdab8cb40/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,126,197,267,337,405",
+                        "endColumns": "70,70,69,69,67,67",
+                        "endOffsets": "121,192,262,332,400,468"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/home/harsh/AndroidStudioProjects/GuessTheWordViewModel/app/build/intermediates/res/merged/debug/values-be_values-be.arsc.flat",
             "map": [
                 {
@@ -1678,21 +1693,6 @@
                         "startOffsets": "2834,2943",
                         "endColumns": "108,125",
                         "endOffsets": "2938,3064"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/harsh/AndroidStudioProjects/GuessTheWordViewModel/app/build/intermediates/res/merged/debug/values-xlarge-v4_values-xlarge-v4.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/harsh/.gradle/caches/transforms-2/files-2.1/5bfaf7b81f844977ce94c6cfdab8cb40/res/values-xlarge-v4/values-xlarge-v4.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,126,197,267,337,405",
-                        "endColumns": "70,70,69,69,67,67",
-                        "endOffsets": "121,192,262,332,400,468"
                     }
                 }
             ]
