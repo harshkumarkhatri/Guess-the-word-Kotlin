@@ -1440,6 +1440,8 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string play_again
 string play_button
+string quote_format
+string score_format
 string search_menu_title
 string skip
 string status_bar_notification_info_overflow

@@ -8,8 +8,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
+import com.example.android.guesstheword.screens.score.ScoreViewModel;
 import java.lang.Deprecated;
 import java.lang.Object;
 
@@ -26,6 +28,9 @@ public abstract class ScoreFragmentBinding extends ViewDataBinding {
   @NonNull
   public final TextView youScoredText;
 
+  @Bindable
+  protected ScoreViewModel mScoreViewModel;
+
   protected ScoreFragmentBinding(Object _bindingComponent, View _root, int _localFieldCount,
       Button playAgainButton, ConstraintLayout scoreLayout, TextView scoreText,
       TextView youScoredText) {
@@ -34,6 +39,13 @@ public abstract class ScoreFragmentBinding extends ViewDataBinding {
     this.scoreLayout = scoreLayout;
     this.scoreText = scoreText;
     this.youScoredText = youScoredText;
+  }
+
+  public abstract void setScoreViewModel(@Nullable ScoreViewModel scoreViewModel);
+
+  @Nullable
+  public ScoreViewModel getScoreViewModel() {
+    return mScoreViewModel;
   }
 
   @NonNull
